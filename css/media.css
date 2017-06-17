@@ -4,18 +4,24 @@
 @media only screen and (max-width : 1230px) {
 
    
-    }
-    
+        
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width : 1000px) {
+     /* SEARCH */
+
+    div.l-grid__item.nopadding {
+        padding-bottom: 25px;
+    }
     
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+    /* NAVIGATION */
+    
      ul.topnav {
         background-color: #E6EBE7;
     }
@@ -31,11 +37,22 @@
     h1 {
         margin-bottom: 20px;
     }
+
+    /* SEARCH */
+
+    .nopadding {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    
+   
 }
 
 
 /* Extra Small Devices, Phones */
 @media screen and (max-width: 480px){
+     /* NAVIGATION */
+
     ul.topnav li:not(:first-child) {display: none;}{
         display: none;
     }
@@ -61,6 +78,10 @@
         display:block;
         text-align: center;
     }
+    @media screen and (max-width: 480px){
+        .\--hidden {
+            display: none;
+        }
 }
 
 /*==========  Mobile First Method  ==========*/
@@ -77,6 +98,10 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+     /* SEARCH */
+     
+    div.l-grid__item.nopadding {
+    padding-bottom: 25px;
 
 }
 
