@@ -35,56 +35,32 @@
 	<link rel="stylesheet" href="css/media.css" />
 </head>
 
-<!-- END HEAD -->
-
 <!-- BODY -->
 
 <body>
 
 <!-- NAVIGANION -->
 
-<ul class="topnav" id="myTopnav">
-	<li><a href="#" class="active">WEATHER</a></li>
-	<li><a href="#" class="">NEWS</a></li>
-	<li><a href="#" class="">ABOUT</a></li>
-	<li><a href="#" class="">CONTACT US</a></li>
-	<li class="icon"><a href="javascript:void(0);" style="font-size: 15px;" onclick="myFunction()">&#9776;</a></li>
-</ul>
-
-
-
-
-
-
-
-
-
-
-
-<!--
-<div class="container fluid">
-	<div class="row navigation">
-	  	<div class="col-xs-4 col-sm-4 col-md-4 center">
-	  		<h1><a href="#">Weather</a><span class="navColor">Info</span></h1>
+<nav class="container l-grid">
+	<div class="row l-grid__item">
+		<div class="col-xs-12 col-sm-4 col-md-4 l-grid__item">
+		  		<h1 class="h1__logo">
+		  			<a href="#">Weather</a><span class="h1__logo--navColor">Info</span>
+		  		</h1>
 	  	</div>
-	  	<div class="col-xs-8 col-sm-8 col-md-8">
-		  	<nav class="clearfix">
-				<ul class="clearfix">
-					<li><a href="#">Main</a></li>
-					<li><a href="#">Climate</a></li>
-					<li><a href="#">News</a></li>
-					<li><a href="#">Contact us</a></li>	
-				</ul>
-			<div class="toggle">
-				<a href="#" id="pull"><span class="glyphicon glyphicon-align-justify"></span></a>
-			</div>
-			</nav>
-	  	</div>
+		<div class="col-xs-12 col-sm-8 col-md-8 l-grid__item">
+			<ul class="topnav" id="myTopnav">
+				<li><a href="#" class="topnav__item is--active">Weather</a></li>
+				<li><a href="#" class="topnav__item">News</a></li>
+				<li><a href="#" class="topnav__item">About</a></li>
+				<li><a href="#" class="topnav__item">Contact us</a></li>
+				<li class="topnav__js-drop-down-menu-toggle"><a href="javascript:void(0);" style="font-size: 15px;" onclick="myFunction()">&#9776;</a></li>
+			</ul>
+		</div>	
 	</div>
-</div>
+</nav>
 
-
-
+<!-- SEARCH -->
 
 <div class="container fluid">
 <div class="row">
@@ -93,13 +69,7 @@
 	<label></label>
 	<input type="" value name="">
 </form>
-</div>-->
-
-
-<!-- END SEARCH -->
-
-
-
+</div>
 
 
 <!-- ADD SCRIPTS-->
@@ -109,10 +79,11 @@
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
 	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
 	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
 	
 
 	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
-	<script src="libs/bootstrap/js/bootstrap.min.js"></script><![endif]-->
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
 	<script src="js/style.js"></script>
 </body>
 

@@ -1,23 +1,7 @@
 function myFunction() {
-	var x = document.getElementById("myTopnav");
-	if(x.className === 'topnav'){
-		x.className += ' responsive';
-	}else{
-		x.className = 'topnav';
-	}
+    var x = document.getElementById("myTopnav");
+    x.classList.toggle("responsive");
 }
 
 
 
-/* NAVIGATION
-
-$(function() {
-    var pull = $('#pull');
-        menu = $('nav ul');
-        menuHeight = menu.height();
-    $(pull).on('click', function(e) {
-        e.preventDefault();
-        menu.slideToggle();
-    });
-});
- */

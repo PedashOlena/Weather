@@ -16,57 +16,52 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-    .center {
-        text-align: center;
+     ul.topnav {
+        background-color: #E6EBE7;
     }
-     nav {  
-        border-bottom: 0;  
-    }  
-    nav ul {  
-        display: none;  
-        height: auto;  
-    }  
-    nav a#pull {  
-        display: block;  
-        width: 100%;  
-        /*position: relative;*/  
-    }  
-    nav a#pull:after {  
-        content:"";  
-        width: 30px;  
-        height: 30px;  
-        display: inline-block;  
-        position: absolute;  
-        top: 10px;  
+    ul.topnav li a{
+        padding: 1px 16px;
     }
-
-}
-@media screen and (max-width: 650px) {
-   
-	
+    ul.topnav li {
+   float: left;
+    } 
+    ul.topnav li a:hover {
+        color: #337ab7;
+    }
+    h1 {
+        margin-bottom: 20px;
+    }
 }
 
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-	
-}
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-	 nav li {
-        display: block;
+@media screen and (max-width: 480px){
+    ul.topnav li:not(:first-child) {display: none;}{
+        display: none;
+    }
+    ul.topnav li.topnav__js-drop-down-menu-toggle{
+        float: right;
+        display: inline-block;
+        }
+   }
+@media screen and (max-width: 480px){
+    ul.topnav.responsive {
+        position: relative;
+    }
+    ul.topnav.responsive li.topnav__js-drop-down-menu-toggle{
+        position: absolute;
+        right: 0;
+        top:0;
+    }
+    ul.topnav.responsive li{
         float: none;
-        width: 100%;
-   
-    nav li a {
-        border-bottom: 1px solid #576979;
+        display: inline;
     }
-    .navigation {
-        margin: 0 auto;
+    ul.topnav.responsive li a{
+        display:block;
+        text-align: center;
     }
 }
-
 
 /*==========  Mobile First Method  ==========*/
 
