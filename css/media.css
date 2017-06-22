@@ -98,8 +98,7 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-     /* SEARCH */
-     
+     /* SEARCH */     
     div.l-grid__item.nopadding {
     padding-bottom: 25px;
 

@@ -42,9 +42,7 @@ ul.topnav li.topnav__js-drop-down-menu-toggle {
     display: none;
 }
 
-/* END NAVIGATION */
-
-/*SEARCH */
+/*  SEARCH  */
 .c-location {
    vertical-align: top;
 }
@@ -75,6 +73,30 @@ ul.topnav li.topnav__js-drop-down-menu-toggle {
 .c-formsearch__input--min {
     width: 100%;
     padding: 15px;
+}
+
+
+/*  VIDEO */
+.c-video {
+    position: relative;
+    padding-top: 56.25%;
+    color: #fff;
+}
+.c-video
+.c-video__item--link {
+   left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    position: absolute;
+}
+
+
+
+.c-video__item--link{
+    border: 1px solid black;   
+    background: url('../images/images/Shep-Murray-and-Ian-Murray-Vineyard-Vines.jpg') 50% 50% / cover no-repeat;
 }
 
 
