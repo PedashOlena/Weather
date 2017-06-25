@@ -62,15 +62,25 @@
 	</nav>
 	<?php
 			$key = '6f3cc1ed955f45bcdf4aa295f7a8d928';
-			$file = file_get_contents('http://api.openweathermap.org/data/2.5/find?q=London&units=metric&appid='.$key);
+			//$file = file_get_contents('http://api.openweathermap.org/data/2.5/find?q=London&units=metric&appid='.$key);
+			$file = file_get_contents('json/city.list.json');
 			$filem = json_decode($file, true);
-			if (! is_array($filem)) die ('Json convert error');
-			echo '<pre>';
-			var_dump($filem);
-			echo '</pre>';
+			if (! is_array($filem)) die ('Json convert error');			
+			foreach($filem as $number => $massiv){
+			foreach($massiv  as  $inner_key => $value)
+			{
+				if ($inner_key =='name'){
+			     	echo $value;
+			     	echo '</br>';
+			     	}
+			     else if ($inner_key =='country') {
+			     	echo $value;
+			     	echo '</br>';
+			} 
 
-
-	?>
+			}
+			}
+?>
 
 <!-- SEARCH -->
 
