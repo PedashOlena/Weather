@@ -5,8 +5,8 @@ $cities='create table if not exists Cities(
 	id int not null auto_increment primary key, 
 	city varchar(128), 
 	country varchar(128), 
-	lon float,
-	lat float,
+	lon double not null,
+	lat double not null,
 	)default charset="utf8"';
 
 mysql_query($cities);
@@ -18,3 +18,4 @@ if ($err)
 }
 
 ?>
+
