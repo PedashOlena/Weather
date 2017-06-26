@@ -61,6 +61,8 @@
 		</div>
 	</nav>
 	<?php
+		include_once('pages/functions.php');
+			connect();
 			$key = '6f3cc1ed955f45bcdf4aa295f7a8d928';
 			//$file = file_get_contents('http://api.openweathermap.org/data/2.5/find?q=London&units=metric&appid='.$key);
 			$file = file_get_contents('json/city.list.json');
@@ -70,16 +72,31 @@
 			foreach($massiv  as  $inner_key => $value)
 			{
 				if ($inner_key =='name'){
-			     	echo $value;
-			     	echo '</br>';
+			     	$name = $value;
+			     	$ins='insert into Cities (city) values ("'.$name.'")';
+       				mysql_query($ins);
+        			$err=mysql_errno();
+        			if ($err)
+			           {
+			             echo 'Error code:'.$err.'<br>';
+			             exit();
+			           }
 			     	}
-			     else if ($inner_key =='country') {
-			     	echo $value;
-			     	echo '</br>';
+			    else if ($inner_key =='country') {
+			     	$country = $value;
+			     	
 			} 
 
 			}
 			}
+			/*$ins='insert into Cities (city) values ("'.$name.'")';
+        mysql_query($ins);
+        $err=mysql_errno();
+        if ($err)
+           {
+             echo 'Error code:'.$err.'<br>';
+             exit();
+           }*/
 ?>
 
 <!-- SEARCH -->
