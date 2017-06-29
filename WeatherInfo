@@ -1,0 +1,343 @@
+WeatherInfo
+WeatherNewsAboutContact us
+array(4) {
+  ["message"]=>
+  string(8) "accurate"
+  ["cod"]=>
+  string(3) "200"
+  ["count"]=>
+  int(5)
+  ["list"]=>
+  array(5) {
+    [0]=>
+    array(11) {
+      ["id"]=>
+      int(2643743)
+      ["name"]=>
+      string(6) "London"
+      ["coord"]=>
+      array(2) {
+        ["lat"]=>
+        float(51.5085)
+        ["lon"]=>
+        float(-0.1258)
+      }
+      ["main"]=>
+      array(5) {
+        ["temp"]=>
+        float(17.15)
+        ["pressure"]=>
+        int(1012)
+        ["humidity"]=>
+        int(68)
+        ["temp_min"]=>
+        int(16)
+        ["temp_max"]=>
+        int(18)
+      }
+      ["dt"]=>
+      int(1498380600)
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(6.7)
+        ["deg"]=>
+        int(250)
+      }
+      ["sys"]=>
+      array(1) {
+        ["country"]=>
+        string(2) "GB"
+      }
+      ["rain"]=>
+      NULL
+      ["snow"]=>
+      NULL
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(90)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(804)
+          ["main"]=>
+          string(6) "Clouds"
+          ["description"]=>
+          string(15) "overcast clouds"
+          ["icon"]=>
+          string(3) "04d"
+        }
+      }
+    }
+    [1]=>
+    array(11) {
+      ["id"]=>
+      int(4119617)
+      ["name"]=>
+      string(6) "London"
+      ["coord"]=>
+      array(2) {
+        ["lat"]=>
+        float(35.329)
+        ["lon"]=>
+        float(-93.253)
+      }
+      ["main"]=>
+      array(5) {
+        ["temp"]=>
+        int(18)
+        ["pressure"]=>
+        int(1023)
+        ["humidity"]=>
+        int(93)
+        ["temp_min"]=>
+        int(18)
+        ["temp_max"]=>
+        int(18)
+      }
+      ["dt"]=>
+      int(1498380780)
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(2.11)
+        ["deg"]=>
+        float(22.5092)
+      }
+      ["sys"]=>
+      array(1) {
+        ["country"]=>
+        string(2) "US"
+      }
+      ["rain"]=>
+      NULL
+      ["snow"]=>
+      NULL
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(20)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(801)
+          ["main"]=>
+          string(6) "Clouds"
+          ["description"]=>
+          string(10) "few clouds"
+          ["icon"]=>
+          string(3) "02n"
+        }
+      }
+    }
+    [2]=>
+    array(11) {
+      ["id"]=>
+      int(4298960)
+      ["name"]=>
+      string(6) "London"
+      ["coord"]=>
+      array(2) {
+        ["lat"]=>
+        float(37.129)
+        ["lon"]=>
+        float(-84.0833)
+      }
+      ["main"]=>
+      array(5) {
+        ["temp"]=>
+        float(14.9)
+        ["pressure"]=>
+        int(1021)
+        ["humidity"]=>
+        int(87)
+        ["temp_min"]=>
+        int(14)
+        ["temp_max"]=>
+        int(16)
+      }
+      ["dt"]=>
+      int(1498380900)
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(1.59)
+        ["deg"]=>
+        float(321.009)
+      }
+      ["sys"]=>
+      array(1) {
+        ["country"]=>
+        string(2) "US"
+      }
+      ["rain"]=>
+      NULL
+      ["snow"]=>
+      NULL
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(1)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(800)
+          ["main"]=>
+          string(5) "Clear"
+          ["description"]=>
+          string(12) "sky is clear"
+          ["icon"]=>
+          string(3) "01n"
+        }
+      }
+    }
+    [3]=>
+    array(11) {
+      ["id"]=>
+      int(4517009)
+      ["name"]=>
+      string(6) "London"
+      ["coord"]=>
+      array(2) {
+        ["lat"]=>
+        float(39.8865)
+        ["lon"]=>
+        float(-83.4483)
+      }
+      ["main"]=>
+      array(5) {
+        ["temp"]=>
+        float(13.13)
+        ["pressure"]=>
+        int(1018)
+        ["humidity"]=>
+        int(87)
+        ["temp_min"]=>
+        int(12)
+        ["temp_max"]=>
+        int(15)
+      }
+      ["dt"]=>
+      int(1498382100)
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(3.1)
+        ["deg"]=>
+        int(260)
+      }
+      ["sys"]=>
+      array(1) {
+        ["country"]=>
+        string(2) "US"
+      }
+      ["rain"]=>
+      NULL
+      ["snow"]=>
+      NULL
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(1)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(800)
+          ["main"]=>
+          string(5) "Clear"
+          ["description"]=>
+          string(12) "sky is clear"
+          ["icon"]=>
+          string(3) "01n"
+        }
+      }
+    }
+    [4]=>
+    array(11) {
+      ["id"]=>
+      int(5056033)
+      ["name"]=>
+      string(6) "London"
+      ["coord"]=>
+      array(2) {
+        ["lat"]=>
+        float(40.445)
+        ["lon"]=>
+        float(-95.235)
+      }
+      ["main"]=>
+      array(5) {
+        ["temp"]=>
+        float(10.98)
+        ["pressure"]=>
+        int(1025)
+        ["humidity"]=>
+        int(71)
+        ["temp_min"]=>
+        int(9)
+        ["temp_max"]=>
+        int(13)
+      }
+      ["dt"]=>
+      int(1498382100)
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(1.5)
+        ["deg"]=>
+        int(310)
+      }
+      ["sys"]=>
+      array(1) {
+        ["country"]=>
+        string(2) "US"
+      }
+      ["rain"]=>
+      NULL
+      ["snow"]=>
+      NULL
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(1)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(800)
+          ["main"]=>
+          string(5) "Clear"
+          ["description"]=>
+          string(12) "sky is clear"
+          ["icon"]=>
+          string(3) "01n"
+        }
+      }
+    }
+  }
+}
+
+search city
++
+ADD location
+Did you know you can add your favorit location?
+
+10 Things about this city
+
+The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.
+
