@@ -2,14 +2,12 @@
 include_once('functions.php');
 $pdo=connect();
 
-$weather='create table Weathers
-	(
-		id int not null auto_increment primary key,
-		d_id int not null unique,
-		name varchar(128)not null,
-		country varchar(128)not null,
-		lon float,
-		lat float
-	)default charset="utf8"';
+$Weathers='create table Weathers(
+id int not null auto_increment primary key,
+d_id int not null unique,
+name varchar(32),
+country varchar(32),
+lon decimel(10,6),
+lat decimel(10,6),)default charset="utf8"';
 
-$pdo->exec($weather);
+$pdo->exec($role);

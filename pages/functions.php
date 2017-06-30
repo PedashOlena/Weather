@@ -3,7 +3,7 @@
 		$host="localhost",
 		$user="root",
 		$pass="123456",
-		$dbname="weather")
+		$dbname="Weather")
 	{
 		$cs='mysql:host='.$host.';dbname='.$dbname.';charset=utf8;';
 		$options=array(
